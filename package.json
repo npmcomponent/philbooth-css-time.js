@@ -1,36 +1,14 @@
 {
-    "name": "css-time",
-    "version": "0.1.11",
-    "description": "A tiny library that converts milliseconds to and from CSS time.",
-    "homepage": "https://github.com/philbooth/css-time.js",
-    "bugs": "https://github.com/philbooth/css-time.js/issues",
-    "license": "MIT",
-    "author": "Phil Booth <pmbooth@gmail.com> (https://github.com/philbooth)",
-    "main": "./src/css-time",
-    "jam": {
-        "main": "./src/css-time.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/philbooth/css-time.js.git"
-    },
-    "keywords": [
-        "css",
-        "time",
-        "milliseconds",
-        "conversion",
-        "convert"
-    ],
-    "devDependencies": {
-        "jshint": "2.3.x",
-        "mocha": "1.14.x",
-        "chai": "1.8.x",
-        "uglify-js": "2.4.x"
-    },
-    "scripts": {
-        "lint": "./node_modules/.bin/jshint ./src/css-time.js --config config/jshint.json",
-        "test": "./node_modules/.bin/mocha --ui tdd --reporter spec --colors ./test/css-time.js",
-        "minify": "./node_modules/.bin/uglifyjs ./src/css-time.js --compress --mangle --output ./src/css-time.min.js"
-    }
+  "name": "philbooth-css-time.js",
+  "description": "A tiny library that converts milliseconds to and from CSS time.",
+  "version": "0.1.11",
+  "keywords": [
+    "css",
+    "time",
+    "milliseconds",
+    "conversion",
+    "convert"
+  ],
+  "dependencies": {},
+  "license": "MIT"
 }
-
